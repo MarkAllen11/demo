@@ -4,7 +4,7 @@ module.exports = {
   context: __dirname,
   entry: "./frontend/indenseo.jsx",
   output: {
-    path: path.join(__dirname, 'app', 'assets', 'javascripts'),
+    path: path.join(__dirname, 'frontend'),
     filename: "bundle.js"
   },
   resolve: {
